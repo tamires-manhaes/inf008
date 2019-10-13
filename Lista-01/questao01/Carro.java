@@ -1,3 +1,5 @@
+package questao01;
+
 public class Carro {
     public String modelo;
     public float velocidade;
