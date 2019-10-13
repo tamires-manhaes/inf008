@@ -1,9 +1,15 @@
+import hello_world.Ola;
 import questao01.Carro;
 import questao02.Televisao;
 
 public class Main {
 
     public static void main(String[] args) {
+    	//Hello world
+		Ola ola = new Ola();
+		ola.escreva();
+		//Fim hello world
+
     	//Questão 1
 	    Carro carro = new Carro();
 	    carro.ligar("honda hrv");

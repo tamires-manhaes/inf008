@@ -1,3 +1,5 @@
+package hello_world;
+
 public class Ola {
 
     public void escreva(){
