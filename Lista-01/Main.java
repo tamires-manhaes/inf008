@@ -1,10 +1,12 @@
 import hello_world.Ola;
 import questao01.Carro;
 import questao02.Televisao;
+import questao03.*;
 
 public class Main {
 
     public static void main(String[] args) {
+
     	//Hello world
 		Ola ola = new Ola();
 		ola.escreva();
@@ -24,5 +26,11 @@ public class Main {
 	    tv.descerCanal(12);
 	    tv.diminuirVolume(3);
 	    //Fim questão 2
+
+		//Questão 03
+		Dvd dvd = new Dvd();
+		dvd.ligar(false);
+		dvd.aumentarVolume(0);
+		//Fim questão 3
     }
 }
