@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ContadorVolta
+comment1.params=
+comment1.target=void\ contar()
+comment2.params=qtd
+comment2.target=void\ contarMais(int)
+comment3.params=oto
+comment3.target=void\ contarContador(ContadorVolta)
+comment4.params=
+comment4.target=void\ zerar()
+comment5.params=
+comment5.target=int\ getValor()
+numComments=6
