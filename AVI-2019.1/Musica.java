@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Musica {
     private String titulo;
@@ -75,6 +76,14 @@ public class Musica {
             case 'G': this.campoHarmonico = "Sol maior";
         }
          return this.campoHarmonico;
+    }
+
+    public void saoIguais(Musica outra) {
+        if(outra.getTitulo() == this.getTitulo() && outra.getArtistas() == this.getArtistas()) {
+            System.out.println("são iguais");
+        } else {
+            System.out.println("Não são iguais");
+        }
     }
 
 //  Método para exibição dos valores do objeto
