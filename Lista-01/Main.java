@@ -1,36 +1,26 @@
-import hello_world.Ola;
-import questao01.Carro;
-import questao02.Televisao;
-import questao03.*;
-
 public class Main {
-
     public static void main(String[] args) {
+         //   Questão 1
+         Carro honda = new Carro("honda hrv", 30, 5, "direita");
+         honda.ligar();
+         honda.acelerar();
+         honda.marchaPCima();
+         honda.virar("esquerda");
+         honda.status();
 
-    	//Hello world
-		Ola ola = new Ola();
-		ola.escreva();
-		//Fim hello world
+         //	 Questão 2
+         Televisao tv = new Televisao("Aoc", 21,120);
+         tv.ligar();
+         tv.aumentarVolume();
+         tv.subirCanal();
 
-    	//Questão 1
-	    Carro carro = new Carro();
-	    carro.ligar("honda hrv");
-	    carro.acelerar(60);
-	    carro.viraDireita();
-	    carro.marchaPcima();
-	    //Fim questão 1
-
-	    //Questão 2
-	    Televisao tv = new Televisao(32, "Samsung", 2,7);
-	    tv.ligarTv();
-	    tv.descerCanal(12);
-	    tv.diminuirVolume(3);
-	    //Fim questão 2
-
-		//Questão 03
-		Dvd dvd = new Dvd();
-		dvd.ligar(false);
-		dvd.aumentarVolume(0);
-		//Fim questão 3
+        //  Questão 3
+        Filme avengers = new Filme("Avengers", "Ação", 270);
+        Dvd dvd = new Dvd(true,3);
+        avengers.statusFilme();
+        dvd.inserirFilme(avengers);
+        dvd.ligar();
+        dvd.aumentarVolume();
+        dvd.status();
     }
 }
